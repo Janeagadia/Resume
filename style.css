@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1d1b1bc4;
+  color: #fff;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  line-height: 30px;
+}
+header a {
+  color: #fff;
+}
+.contact ul {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+main {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+hr {
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.562);
+}
+
+.left-column {
+  line-height: 30px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* .right-column {
+  border-left: 2px solid rgba(0, 0, 0, 0.308);
+  padding-left: 30px;
+} */
+.right-column ul {
+  line-height: 30px;
+}
+.education,
+.employment,
+.intern,
+.profile,
+.personal-details,
+.skills,
+.qualities {
+  margin: 20px 0;
+}
