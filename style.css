@@ -18,20 +18,19 @@ header {
   padding: 10px 20px;
   line-height: 30px;
 }
+h1 {
+  font-size: 45px;
+  margin-bottom: -15px;
+}
 header a {
   color: #fff;
 }
-.contact ul {
-  margin-top: 10px;
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
+
 main {
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 70fr 30fr;
-  gap: 50px;
+  grid-template-columns: 35fr 65fr;
+  gap: 90px;
   margin-bottom: 20px;
 }
 hr {
@@ -47,10 +46,7 @@ hr {
   flex-direction: row;
   justify-content: space-between;
 }
-/* .right-column {
-  border-left: 2px solid rgba(0, 0, 0, 0.308);
-  padding-left: 30px;
-} */
+
 .right-column ul {
   line-height: 30px;
 }
@@ -62,4 +58,7 @@ hr {
 .skills,
 .qualities {
   margin: 20px 0;
+}
+.experience-tools {
+  margin-top: 10px;
 }
